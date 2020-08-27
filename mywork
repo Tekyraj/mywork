@@ -1,0 +1,36 @@
+#include <stdio.h>
+// THIS PROGRAM IS FOR RECTANGLE KA PERIMETER
+int main(int argc, char const *argv[])
+{
+    printf("THIS PROGRAM IS FOR RECTANGLE KA PERIMETER\n");
+
+    printf("\n");
+
+    printf("MATHS = MERI AATMA THUME HUMESA SATAYGI\n");
+    printf("\n");
+
+    int Length;
+
+    printf("enter the value of Length\n");
+    scanf("%d",&Length);
+
+    int Breadth;
+    printf("enter the value of Breadth\n");
+    scanf("%d",&Breadth);
+
+    int x = 2*(Length+Breadth);
+    printf("RECTANGLE KA PERIMETER = %d\n",x);
+
+    
+
+
+    printf("Credit goes to E.Hacker MR.Ayush232(TEKY RAJ)\n");
+
+
+
+    
+    printf("\n");
+
+    printf("E.Hacker = Ethical Hacker\n");
+    return 0;
+}
