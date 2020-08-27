@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(){
+
+    int side;
+    printf("enter the value of side\n");
+    scanf("%d",&side);
+
+
+    int x = (side)*(side);
+    printf("your value %d",x);
+
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int side;
+    printf("enter the value of side\n");
+    scanf("%d",&side);
+
+
+    int x = 4*(side);
+    printf("your answer %d",x);
+    return 0;
+}
